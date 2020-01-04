@@ -10,7 +10,7 @@
 var result = []
 var cateList = $("#cate > li > a").toArray();
 cateList.shift();
-for (var cateNum=0 ; cateNum<=cateList ; cateNum){
+for (var cateNum=0 ; cateNum<=cateList.length ; cateNum){
     $(cate[cateNum]).text();
     $(cate[cateNum]).click();
     var searchCnt = $("#searchCnt").text().split("개")[0]*1;
